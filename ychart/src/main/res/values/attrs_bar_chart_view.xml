@@ -1,0 +1,8 @@
+<resources>
+    <declare-styleable name="BarChartView">
+        <attr name="xAxis" format="string" />
+        <attr name="yAxis" format="string"/>
+        <attr name="labelText" format="string"/>
+        <attr name="labelTextSize" format="dimension"/>
+    </declare-styleable>
+</resources>
