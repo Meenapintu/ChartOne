@@ -26,11 +26,11 @@ class MainActivity : AppCompatActivity() {
         var i=0;
         val a :ArrayList<BarCharData> = ArrayList()
         val color: IntArray = intArrayOf(Color.RED, Color.BLACK,Color.BLUE, Color.MAGENTA, Color.YELLOW)
-        while(i<11)
+        while(i<30)
         {
 
             a.add(BarCharData(i.toFloat(),(0..1000).random().toFloat(),color[i%5]))
-            i++;
+            i+=10;
         }
 
         chartOne.drawDataXAxisSorted(a)
